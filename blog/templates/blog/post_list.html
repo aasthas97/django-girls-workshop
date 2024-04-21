@@ -6,6 +6,18 @@
     <title>Posts</title>
 </head>
 <body>
-    
+    <h1>This is a Django blog.</h1>
+    <p>Let's pretend there's a lot of brilliant stuff on this page.</p>
+
+    <h2>Some braindump.</h2>
+    <p>
+        {% for post in posts %}
+        <article>
+        <time>published: {{ post.published_date }}</time>
+        <h3>{{ post.title }}</h3>
+        <p>{{ post.text|linebreaksbr }}</p>
+    </article>
+{% endfor %}
+    </p>
 </body>
 </html>
