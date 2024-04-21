@@ -1,0 +1,30 @@
+body,
+::before,
+::after {
+  font-family: "Montserrat";
+}
+
+h1 {
+  background-color: #004621;
+  color: white;
+  padding: 1.2rem;
+  font-weight: bold;
+}
+
+h2 {
+  color: white;
+  background-color: #002546;
+  padding: 15px;
+  font-weight: bold;
+}
+
+.blogpost {
+  margin: 1.2em;
+}
+
+.post-title {
+    color: #460025;
+    font-weight: bold;
+    text-decoration: underline;
+    padding: 10px 0 10px 0;
+}
